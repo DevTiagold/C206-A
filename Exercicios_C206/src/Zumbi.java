@@ -7,9 +7,6 @@ public class Zumbi {
     double vida = 50;
     boolean alimentado = true;
 
-    public void perdervida(){
-        vida -= 20;
-    }
 }
 
 
