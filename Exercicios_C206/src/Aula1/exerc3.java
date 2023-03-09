@@ -1,3 +1,5 @@
+package Aula1;
+
 import java.util.Scanner;
 public class exerc3 {
     public static void main(String[] args) {

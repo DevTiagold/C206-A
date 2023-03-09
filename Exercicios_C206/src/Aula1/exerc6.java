@@ -1,3 +1,5 @@
+package Aula1;
+
 import java.util.Random;
 import java.util.Scanner;
 public class exerc6 {

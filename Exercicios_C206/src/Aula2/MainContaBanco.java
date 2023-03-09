@@ -1,3 +1,5 @@
+package Aula2;
+
 import java.util.Scanner;
 public class MainContaBanco {
     public static void main(String[] args) {

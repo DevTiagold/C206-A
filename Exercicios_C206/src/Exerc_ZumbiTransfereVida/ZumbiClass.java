@@ -1,3 +1,5 @@
+package Exerc_ZumbiTransfereVida;
+
 public class ZumbiClass {
     double vida;
     String nome;

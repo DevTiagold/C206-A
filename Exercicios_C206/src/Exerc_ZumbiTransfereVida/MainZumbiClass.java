@@ -1,3 +1,5 @@
+package Exerc_ZumbiTransfereVida;
+
 import java.util.Scanner;
 
 public class MainZumbiClass {
@@ -46,14 +48,9 @@ public class MainZumbiClass {
             }
             else
                 System.out.println("Tranferência de vida concluida");
-
         }
 
         System.out.println("Vida de  "+z1.nome +": "+z1.vida);
         System.out.println("Vida de  "+z2.nome +": "+z2.vida);
-
-
-
-
     }
 }

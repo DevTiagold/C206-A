@@ -1,3 +1,5 @@
+package Aula1;
+
 public class Main {
     public static void main(String[] args) {
         int lanche1 = 10; // primeira hora

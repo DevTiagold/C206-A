@@ -1,3 +1,5 @@
+package Aula2;
+
 public class MainZ{
     public static void main(String[] args) {
         Zumbi c = new Zumbi();

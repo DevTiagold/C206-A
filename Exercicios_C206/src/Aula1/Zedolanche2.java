@@ -1,3 +1,5 @@
+package Aula1;
+
 import java.util.Scanner;
 public class Zedolanche2 {
     public static void main(String[] args) {

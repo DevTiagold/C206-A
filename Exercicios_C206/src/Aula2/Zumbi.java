@@ -1,3 +1,5 @@
+package Aula2;
+
 import java.sql.SQLOutput;
 
 public class Zumbi {
