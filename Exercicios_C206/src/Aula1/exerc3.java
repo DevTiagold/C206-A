@@ -10,20 +10,20 @@ public class exerc3 {
         if(NPA >= 60){
             System.out.println("Aluno aprovado");
         }
-        else
+        else {
             System.out.println("Nota NP3:");
             int NP3 = entrada.nextInt();
             int soma = NPA + NP3;
-            float media = (float) soma/2;
+            float media = (float) soma / 2;
 
-            if(media >= 50){
+            if (media >= 50) {
                 System.out.println("Nota: " + media);
                 System.out.println("Aluno aprovado");
-            }
-            else {
+            } else {
                 System.out.println("Nota: " + media);
                 System.out.println("Aluno reprovado");
             }
+        }
 
         entrada.close();
     }
