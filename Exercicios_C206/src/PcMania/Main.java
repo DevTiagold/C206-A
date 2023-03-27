@@ -20,7 +20,7 @@ public class Main {
         //instanciar a memoria e adicionar valores
         MemoriaUSB memoriaUSB1=new MemoriaUSB("Pen-Drive",16);
         MemoriaUSB memoriaUSB2=new MemoriaUSB("Pen-Drive",32);
-        MemoriaUSB memoriaUSB3=new MemoriaUSB("Pen-Drive",1000);
+        MemoriaUSB memoriaUSB3=new MemoriaUSB(" HD Externo",1000);
 
         //colocar valores a cada instancia
         Computador computador = null;
@@ -185,8 +185,22 @@ public class Main {
         System.out.print("Confirmar compra(true/false): ");
         boolean confirmar_compra = entrada.nextBoolean();
         if(confirmar_compra == true){
-            System.out.println("Suas compras ficaram: R$" + valor_total);
-            System.out.println("Seu saldo de carteira ficou: R$" + cliente.carteira);
+            System.out.print("Emitindo nota fiscal.");
+            Thread.sleep(500);
+            System.out.print(".");
+            Thread.sleep(500);
+            System.out.println(".");
+            Thread.sleep(500);
+            System.out.println("|--------------------------------------------------");
+            System.out.println("|                      Pc Mania                    |");
+            System.out.println("|   Cliente: " + cliente.nome);
+            System.out.println("|   Cpf: " + cliente.cpf);
+            System.out.println("|   Cliente: " + cliente.nome);
+            System.out.println("|   Total: R$" + valor_total);
+            System.out.println("|   Saldo conta: R$"+cliente.carteira);
+            System.out.println("|                     VOLTE SEMPRE                  |");
+            System.out.println("|---------------------------------------------------|");
+
         }
         else
         {
